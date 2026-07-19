@@ -16,12 +16,13 @@ Ask, then record answers in `templates/BOOT.md`'s header block:
 8. Where do rulings get captured on the go? (default: `harvests/INBOX.md` + a note in their notes app)
 9. What's the success metric for the first project, and what must it not break?
 10. Any domain constraints? (regulated industry, accessibility mandates, localization)
+11. Asset licensing: are the product's fonts/icons licensed for use in practice mockups, or should mockups use system stand-ins? *(Added from customer-zero run 1 — instantiating agents hit this question unprompted.)*
 
 ## Step 2 · Draft the constitution
 
 Fill `templates/RULES.md`:
-- **§A** — the universal inviolables (samples provided) + their answers to Q6.
-- **§B** — their aesthetic posture. With a design system (Q3): extract tokens, type, spacing, radius, elevation, motion into rules. Without: draft from Q4's admired products as *proposals*, each marked `[PROPOSED — confirm in use]`.
+- **§A** — the universal inviolables (samples provided) + their answers to Q6. **Also mine the product's own docs for product-specific red lines** (business rules, data-integrity commitments, things the product publicly promises) and draft them as `[PROPOSED]` inviolables — customer-zero run 1 surfaced two this way that the owner had never thought to state.
+- **§B** — their aesthetic posture. With a design system (Q3): extract tokens, type, spacing, radius, elevation, motion into rules. If the live site blocks automated fetching, extract from the source repo instead (theme files, tokens, component conventions) — a deployed repo *is* the live product; note the caveat. Without: draft from Q4's admired products as *proposals*, each marked `[PROPOSED — confirm in use]`.
 - **§C–§F** — adopt the skeleton's discipline/conduct sections largely as-is (they're structural, not taste).
 - **§G** — starts EMPTY. It only ever grows from their real corrections (see Step 5). Seed nothing.
 
